@@ -1,7 +1,7 @@
 import Link from "next/link";
-import About from "../about/page";
+import about from "../about/page";
 
-export default function Contact() {
+export default function contact() {
     return (
         <div>
                    <header className="bg-gradient-to-r from-blue-300 via-green-100 to-green-300 p-4 text-black flex justify-between shadow-md">

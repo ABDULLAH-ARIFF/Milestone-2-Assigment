@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 
-export default function About() {
+export default function about() {
   return (
     <div>
     <header className="bg-gradient-to-r from-blue-300 via-green-100 to-green-300 p-4 text-black flex justify-between shadow-md">
