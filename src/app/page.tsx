@@ -26,7 +26,7 @@ export default function Home() {
         <h3 className="text-2xl font-semibold text-blue-600 mb-4">Featured Products</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-gray-100 p-4 rounded-lg shadow-sm text-center">
-              <img className='border rounded-[10px]' src="hq720.jpg" alt="High Quality Tech Products"/>
+              <Image className='border rounded-[10px]' src="hq720.jpg" alt="High Quality Tech Products"/>
               <h4 className="text-xl font-semibold mt-[20px]">Product 1</h4>
               <p className="text-gray-700 mt-[7px]">High-quality and durable.</p>
               <Link href="https://www.thetimes.com/life-style/luxury/article/best-luxury-tech-gadgets-all-time-technology-men-women-times-luxury-92b569bq6" target='_blank'><button className=" mt-[12px] border rounded-[12px] bg-gradient-to-r from-blue-700  via-blue-400 to-blue-300 hover:bg-black w-[140px] h-[40px] text-white">Learn More</button></Link>
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             
             <div className="bg-gray-100 p-4 rounded-lg shadow-sm text-center">
-            <img className='border rounded-[10px]' src="images-2023-07-02T113436.297.jpeg" alt="Top Rated Products"/>
+            <Image className='border rounded-[10px]' src="images-2023-07-02T113436.297.jpeg" alt="Top Rated Products"/>
               <h4 className="text-xl font-semibold mt-[5px]">Product 3</h4>
               <p className="text-gray-700 mt-[3px]">Top-rated performance.</p>
               <div className='mt-[10px]'><Link href="https://www.practitest.com/resource-center/blog/top-performance-testing-tools/" target='_blank'><button className=" border rounded-[12px] bg-gradient-to-r from-blue-700  via-blue-400 to-blue-300 hover:bg-blue-600 w-[140px] h-[40px] text-white">Learn More</button></Link></div>
@@ -53,21 +53,21 @@ export default function Home() {
         <section className="mt-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-gray-100 p-4 rounded-lg shadow-sm text-center">
-              <img className='border rounded-[10px]' src="maxresdefault.jpg" alt="Sustainability and eco-friendly img"/>
+              <Image className='border rounded-[10px]' src="maxresdefault.jpg" alt="Sustainability and eco-friendly img"/>
               <h4 className="text-xl font-semibold mt-[20px]">Product 4</h4>
               <p className="text-gray-700 mt-[7px]">Sustainability & Eco-friendly</p>
               <Link href="https://www.forbes.com/sites/technology/article/sustainable-technology/" target='_blank'><button className=" mt-[12px] border rounded-[12px] bg-gradient-to-r from-blue-700  via-blue-400 to-blue-300 hover:bg-black w-[140px] h-[40px] text-white">Learn More</button></Link>
             </div>
 
             <div className="bg-gray-100 p-4 rounded-lg shadow-sm text-center">
-            <img className='border rounded-[10px]' src="The-most-futuristic-tech-gadgets-you-will-want-to-buy-someday-blog-featured.jpeg" alt="Health and Wellness Products"/>
+            <Image className='border rounded-[10px]' src="The-most-futuristic-tech-gadgets-you-will-want-to-buy-someday-blog-featured.jpeg" alt="Health and Wellness Products"/>
               <h4 className="text-xl font-semibold mt-[18px]">Product 5</h4>
               <p className="text-gray-700 mt-[7px]">Health & Wellness Products</p>
               <div className='mt-[12px]'><Link href="https://www.myvitaminstore.pk/collections/health-wellness?srsltid=AfmBOopHbDoS9-Mdjkw5Z1wlQHFkRrBnFxtKRQMUQF6QEO3iX2hylOBm" target='_blank'><button className=" border rounded-[12px] bg-gradient-to-r from-blue-700  via-blue-400 to-blue-300 hover:bg-blue-600 w-[140px] h-[40px] text-white">Learn More</button></Link></div>
             </div>
             
             <div className="bg-gray-100 p-4 rounded-lg shadow-sm text-center">
-            <img className='border rounded-[10px]' src="images.jpeg" alt="Educational and productivity Products"/>
+            <Image className='border rounded-[10px]' src="images.jpeg" alt="Educational and productivity Products"/>
               <h4 className=" mt-[17px] text-xl font-semibold">Product 6</h4>
               <p className="text-gray-700 mt-[9px]">Educational & productivity Tools</p>
               <div className='mt-[12px]'><Link href="https://www.edutopia.org/article/productivity-tools-more-teachers-should-know-about/" target='_blank'><button className=" border rounded-[12px] bg-gradient-to-r from-blue-700  via-blue-400 to-blue-300 hover:bg-blue-600 w-[140px] h-[40px] text-white">Learn More</button></Link></div>
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
         </section>
         
-        <img className='h-[8px] mt-[80px]' src="Line 3.png" alt="horizental line" />
+        <Image className='h-[8px] mt-[80px]' src="Line 3.png" alt="horizental line" />
        
         
         {/* Latest Tech Innovations */}
@@ -93,7 +93,7 @@ export default function Home() {
               <p className="text-gray-700">Redefining the world, one algorithm at a time.</p>
               <p className="text-gray-700">Future-ready with AI power.</p>
               </div>
-              <img className='w-[250px] h-[150px] ml-[210px]' src="ai-technology-microchip-background-digital-transformation-concept.jpg" alt="ai img"/>
+              <Image className='w-[250px] h-[150px] ml-[210px]' src="ai-technology-microchip-background-digital-transformation-concept.jpg" alt="ai img"/>
               </div>
             </div>
             <div className="bg-gray-100 p-4 rounded-lg shadow-sm">
@@ -106,7 +106,7 @@ export default function Home() {
               <p className="text-gray-700">Quantum states cant be copied exactly.</p>
               <p className="text-gray-700">Breaks RSA encryption by factoring number fast.</p>
               </div>
-              <img className='w-[250px] h-[160px] ml-[100px]' src="DALL·E 2025-02-11 13.59.12 - A conceptual illustration of Quantum Computing, featuring a futuristic quantum chip with glowing qubits, interconnected by quantum circuits. The image.webp" alt="Quantum computing img"/>
+              <Image className='w-[250px] h-[160px] ml-[100px]' src="DALL·E 2025-02-11 13.59.12 - A conceptual illustration of Quantum Computing, featuring a futuristic quantum chip with glowing qubits, interconnected by quantum circuits. The image.webp" alt="Quantum computing img"/>
               </div>
             </div>
             <div className="bg-gray-100 p-4 rounded-lg shadow-sm">
@@ -119,7 +119,7 @@ export default function Home() {
               <p className="text-gray-700"> Optimized for lower power consumption.</p>  
               <p className="text-gray-700">Ensures stable and strong connections.</p>  
               </div>
-              <img className='w-[250px] h-[150px] ml-[164px]' src="Free Vector _ Communication towers 5g composition with radio waves lasers background and text with images of cellular towers vector illustration.jpeg" alt="5G Connectivity img"/>
+              <Image className='w-[250px] h-[150px] ml-[164px]' src="Free Vector _ Communication towers 5g composition with radio waves lasers background and text with images of cellular towers vector illustration.jpeg" alt="5G Connectivity img"/>
               </div>
             </div>
           </div>
